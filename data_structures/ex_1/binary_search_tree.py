@@ -9,6 +9,7 @@ class BinarySearchTree:
         if (value < self.value):
             if not self.left:
                 self.left = new_tree
+                
             else:
                 self.left.insert(value)
         elif value >= self.value:
